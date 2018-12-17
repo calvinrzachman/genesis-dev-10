@@ -1,0 +1,79 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #27353a;
+  background-image: url("../images/BWPano.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header,
+footer,
+h3 {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  background: #27353a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fef9ff;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+#not-header-footer {
+  background: #5b7d87;
+  margin: 20px;
+  border-radius: 10px;
+  color: #fef9ff;
+}
+
+nav {
+  border-top: thin #5b7d87 solid;
+  border-bottom: thin #5b7d87 solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 15px 0px;
+}
+
+nav a {
+  padding: 10px;
+  cursor: pointer;
+  /* background ; */
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active {
+  /* Isn't currently working */
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #30021b;
+}
+
+#restaurant {
+  text-align: center;
+  padding: 20px;
+}
+
+#submit {
+  margin-top: 20px;
+  color: #fef9ff;
+}
+
+/* Carousel Styling */
+img {
+  border-radius: 10px;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>Restaurant Site - Menu</title>
+    <link
+      href="./styles/restaurantStyles.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      #menu-items {
+        background: #30021b;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      #menu-items div {
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        text-align: center;
+        padding: 0px;
+        margin: 10px;
+      }
+
+      #menu-items article {
+        background: whitesmoke;
+        color: #27353a;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        /* margin: 10px; */
+        text-align: center;
+        width: 70%;
+        border-radius: 10px;
+        /* float: left */
+        /* Remove margin: auto and width settings */
+      }
+
+      #beverages article {
+        background: whitesmoke;
+        color: #27353a;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        /* margin: 10px; */
+        text-align: center;
+        width: 70%;
+        border-radius: 10px;
+        /* float: left */
+        /* Remove margin: auto and width settings */
+      }
+
+      nav {
+        border-top: thin #5b7d87 solid;
+        border-bottom: thin #5b7d87 solid;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin: 15px 0px;
+      }
+
+      nav a {
+        padding: 10px;
+      }
+
+      nav a:hover {
+        font-weight: bold;
+      }
+
+      nav a:active {
+        /* Isn't currently working */
+        text-decoration: none;
+      }
+
+      /* Table Styling */
+
+      table {
+        width: 80%;
+        padding: 5px 10px;
+        text-align: center;
+        margin: auto;
+      }
+
+      tr {
+        /* background: black; */
+        margin-top: 100px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <header class="jumbotron">
+          <h1>Calvin's Cafe</h1>
+          <h2 class="font-italic">Grand Opening 12/31/18</h2>
+        </header>
+
+        <nav>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">
+                <i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active btn-info" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section id="menu-items">
+          <div>
+            <h2>Food</h2>
+            <article>
+              <h3>BAT</h3>
+              <p>Bacon, avocado & tomato with lemon garlic aoli</p>
+            </article>
+            <article>
+              <h3>CC Burger</h3>
+              <p>
+                Half Pound made to order, topped with pepperjack cheese,
+                carmelized onion, lettuce, tomato and CC sauce, served on a
+                toasted brioche bun
+              </p>
+            </article>
+            <article>
+              <h3>Ceasar Salad</h3>
+              <p>A crisp caesar salad</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="beverages">
+          <h2>Beverages</h2>
+
+          <article>
+            <table>
+              <tr>
+                <td>Root Beer</td>
+                <td>$3.00</td>
+              </tr>
+              <tr>
+                <td>Bottled Water</td>
+                <td>$1.25</td>
+              </tr>
+              <tr>
+                <td>Lemonade</td>
+                <td>$1.00</td>
+              </tr>
+              <tr>
+                <td>Iced Tea</td>
+                <td>$1.25</td>
+              </tr>
+            </table>
+          </article>
+        </section>
+        <footer>
+          711 4th St SE <br />
+          Minneapolis, MN 55414 <br />
+          651.308.8022
+        </footer>
+      </div>
+    </main>
+    <script src="./scripts/handlers.js"></script>
+  </body>
+</html>
