@@ -1,0 +1,116 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #27353a;
+}
+
+header,
+footer,
+h3 {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+hr {
+  width: 50%;
+}
+
+#results {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  padding: 5px 10px;
+  text-align: left;
+  margin: auto;
+}
+
+td {
+  /* margin: 0px 10px */
+}
+
+tr {
+  /* background: black; */
+  margin-top: 100px;
+  padding: 20px;
+}
+
+#results article {
+  background: whitesmoke;
+  color: #27353a;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  /* margin: 10px; */
+  text-align: center;
+  width: 70%;
+  border-radius: 10px;
+  /* float: left */
+  /* Remove margin: auto and width settings */
+}
+
+#not-header-footer {
+  background: #5b7d87;
+  margin: 20px;
+  border-radius: 10px;
+  color: #fef9ff;
+}
+
+nav {
+  border-top: thin #5b7d87 solid;
+  border-bottom: thin #5b7d87 solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 15px 0px;
+}
+
+nav a {
+  padding: 10px;
+  cursor: pointer;
+  /* background ; */
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active {
+  /* Isn't currently working */
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #eeb778;
+}
+
+#restaurant {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Carousel Styling */
+img {
+  border-radius: 10px;
+}
